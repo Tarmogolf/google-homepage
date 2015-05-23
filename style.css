@@ -1,0 +1,136 @@
+body, html{
+	margin: 0;
+	padding:0;
+}
+
+#center{
+
+	height: 300px;
+	margin-top: 200px;
+	position: relative;
+
+}
+
+#header{
+	position: relative;
+	margin-top: 10px;
+	height: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: #404040;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+
+li{
+	padding-right: 15px;
+	display: inline;
+	float:left;
+}
+
+#sign_in{
+	background-color: #4486fa;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	width: 71px; height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-top: -9px;
+}
+
+span{
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+#nav_bar{
+	position: fixed;
+	width: 358px;
+	height: 30px;
+	right: 0;
+	margin-bottom: 10px;
+}
+
+#footer{
+	background-color: #f2f2f2;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+}
+
+.footer_links{
+	height:40px;
+	width:300px;
+	position: fixed;
+	display: inline-block;
+}
+
+#right_bottom{
+	right:0;
+}
+
+#right_bottom li a{
+	padding-left: 10px;
+	margin-right: 5px;
+}
+
+#center, #header, #footer{
+	width: 100%;
+}
+
+#buttons{
+	display: block;
+	width: 257px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 29px;
+
+}
+
+#luckyButton{
+	padding-right:0;
+	text-align: center;
+}
+
+input[type=submit]{
+	font-family: arial, sans-serif;
+	border-radius: 2px;
+	width: 125px;
+	height: 29px;
+	border:1px solid #dcdcdc;
+	background-color:#f5f5f5;
+	text-align: center;
+}
+
+
+input[type=text]{
+	display: block;
+	width: 539px; height: 28px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(http://files.softicons.com/download/system-icons/windows-8-metro-invert-icons-by-dakirby309/ico/Applications/Microphone%201.ico) no-repeat right center;
+	padding-left: 15px;
+	background-size: 30px 26px;
+
+}
+
+#logo > img{
+	width: 100%;
+	height: auto;
+}
+
+#logo{
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:269px;
+	height: 95px;
+	margin-bottom: 15px;
+}
